@@ -1,4 +1,17 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.mjs
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    async redirects() {
+      return [
+        {
+          source: '/about',
+          destination: '/Components/About/About.tsx',
+          permanent: true,
+        },
+      ];
+    },
+  };
+  
+  export default nextConfig;
+  
