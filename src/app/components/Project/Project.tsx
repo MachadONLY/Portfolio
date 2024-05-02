@@ -20,7 +20,7 @@ const Project = () => {
             </div>
             <p className="my-6">Explore profiles on GitHub in a practical and intuitive way.</p>
             <Link href="https://main--gabrielgithubfinder.netlify.app" target="blank">
-                <p className="text-sm underline cursor-pointer">More Info -&gt</p> 
+                <p className="text-sm underline cursor-pointer">More Info -&gt;</p> 
             </Link>
           </div>
 
@@ -31,7 +31,7 @@ const Project = () => {
             </div>
             <p className="my-6">A minimal portfolio project built on Next.js</p>
             <Link href="/">
-                <p className="text-sm underline cursor-pointer">More Info -&gt</p> 
+                <p className="text-sm underline cursor-pointer">More Info -&gt;</p> 
             </Link>
           </div>
 
@@ -42,7 +42,7 @@ const Project = () => {
             </div>
             <p className="my-6">A different login screen design created by me.</p>
             <Link href="https://gabriellogin.netlify.app" target="blank">
-                <p className="text-sm underline cursor-pointer">More Info -&gt</p> 
+                <p className="text-sm underline cursor-pointer">More Info -&gt;</p> 
             </Link>
           </div>
         </div>

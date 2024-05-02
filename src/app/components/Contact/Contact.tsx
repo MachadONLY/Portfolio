@@ -34,14 +34,14 @@ const Contact: React.FC = () => {
             </p>
             <div className="lg:flex lg:flex-row  gap-2 lg:gap-6 flex flex-col">
               <Link href="https://github.com/MachadONLY" target="blank">
-                <div className="flex items-center gap-6  p-2 my-2 rounded-xl bg-zinc-100 hover:scale-125  ease-in duration-300">
+                <div className="flex items-center gap-6  p-2 my-2 rounded-xl bg-zinc-100 lg:hover:scale-125  ease-in duration-300">
                   <FaGithub size={25} />
                   <p className="lg:hidden tracking-widest font-semibold">Github</p>
                 </div>
               </Link>
 
               <Link href="https://linkedin.com/in/gabrielmachadodev/" target="blank">
-                <div className="flex items-center gap-6   p-2 my-2 rounded-xl bg-zinc-100 hover:scale-125  ease-in duration-300">
+                <div className="flex items-center gap-6   p-2 my-2 rounded-xl bg-zinc-100 lg:hover:scale-125  ease-in duration-300">
                   <FaLinkedinIn size={25} />
                   <p className="lg:hidden tracking-widest font-semibold">Linkedin</p>
                 </div>

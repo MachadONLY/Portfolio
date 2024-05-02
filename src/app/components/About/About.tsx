@@ -30,7 +30,7 @@ const About = () => {
 
           <Link href="/#contact">
             <p className="my-8 text-gray-700 underline cursor-pointer">
-              Get in touch -&gt
+              Get in touch -&gt;
             </p>
           </Link>
         </div>
