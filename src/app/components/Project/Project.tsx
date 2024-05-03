@@ -8,7 +8,7 @@ const Project = () => {
         <div className="mx-auto max-w-[700px] w-[80%] h-auto my-20">
           <div className="w-full h-auto flex justify-between items-center">
             <h1 className="text-3xl font-bold">Projects</h1>
-            <Link href="/">
+            <Link href="/projectpage">
               <p className="tracking-widest text-sm my-1 ">See all</p>
             </Link>
           </div>
