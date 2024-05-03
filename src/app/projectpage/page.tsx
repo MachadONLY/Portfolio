@@ -37,7 +37,7 @@ const Projectpage: React.FC = () => {
   };
 
   return (
-    <div className="w-full h-[105vh] bg-zinc-900">
+    <div className="w-full h-[110vh] bg-zinc-900">
       <div className="mx-auto max-w-[1080px] w-[95%] h-screen p-2">
         <h1 className="text-zinc-50 text-[68px] lg:text-9xl border-b-8 uppercase font-semibold">
           Projects
