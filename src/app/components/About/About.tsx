@@ -6,8 +6,36 @@ import Link from "next/link";
 const About = () => {
   return (
     <div id="about" className="w-full h-screen">
-      <div className="mx-auto max-w-[600px] w-[85%] lg:my-20 my-12 h-auto">
-        <div className="flex flex-col justify-center">
+      <div className="mx-auto max-w-[1080px] w-[85%] lg:my-20 my-12 h-auto">
+        <div className="fle flex-col">
+          <h1 className="lg:text-5xl text-zinc-800 font-semibold uppercase tracking-widest">Gabriel <br />
+              Machado
+          </h1>
+
+          <div className="flex gap-6 my-12">
+          <Image
+            className="rounded-xl w-[350px]"
+            src={profile}
+            alt="Profile Picture"
+          />
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
+
+
+
+
+
+
+
+{/* <div className="flex flex-col justify-center">
           <Image
             className="rounded-full w-[180px]"
             src={profile}
@@ -33,10 +61,4 @@ const About = () => {
               Get in touch -&gt;
             </p>
           </Link>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default About;
+        </div> */}
