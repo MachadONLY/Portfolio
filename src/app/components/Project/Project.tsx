@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <>
       <div id="project" className="w-full h-screen">
-        <div className="mx-auto max-w-[700px] w-[80%] h-auto my-20">
+        <div className="mx-auto max-w-[700px] w-[80%] h-auto my-40">
           <div className="w-full h-auto flex justify-between items-center">
             <h1 className="text-3xl font-bold">Projects</h1>
             <Link href="/projectpage">
