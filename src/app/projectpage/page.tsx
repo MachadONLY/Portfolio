@@ -144,7 +144,10 @@ const Projectpage: React.FC = () => {
                   </div>
                 </Link>
 
-                <Link href="https://linkedin.com/in/gabrielmachadodev/" target="blank">
+                <Link
+                  href="https://linkedin.com/in/gabrielmachadodev/"
+                  target="blank"
+                >
                   <div className="bg-zinc-800 p-2 rounded-xl cursor-pointer hover:scale-125 hover:bg-zinc-700    ease-in duration-300">
                     <FaLinkedinIn size={25} />
                   </div>
